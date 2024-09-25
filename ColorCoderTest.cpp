@@ -19,11 +19,11 @@ void testPairToNumber(TelCoColorCoder::MajorColor major, TelCoColorCoder::MinorC
 
 int main() 
 {
-    testNumberToPair(4, TelCoColorCoder::MajorColor::WHITE, TelCoColorCoder::MinorColor::BROWN);
-    testNumberToPair(5, TelCoColorCoder::MajorColor::WHITE, TelCoColorCoder::MinorColor::SLATE);
+    testNumberToPair(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
+    testNumberToPair(5, TelCoColorCoder::WHITE, TelCoColorCoder::SLATE);
 
-    testPairToNumber(TelCoColorCoder::MajorColor::BLACK, TelCoColorCoder::MinorColor::ORANGE, 12);
-    testPairToNumber(TelCoColorCoder::MajorColor::VIOLET, TelCoColorCoder::MinorColor::SLATE, 25);
+    testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
+    testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
 
     return 0;
 }
