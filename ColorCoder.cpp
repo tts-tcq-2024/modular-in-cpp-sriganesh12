@@ -21,7 +21,7 @@ namespace TelCoColorCoder
         for (int i = 1; i <= numberOfMajorColors * numberOfMinorColors; ++i) 
         {
             ColorPair colorPair = GetColorFromPairNumber(i);
-            std::cout << i << ": " << MajorColorNames[colorPair.getMajor()] << "  " << MinorColorNames[colorPair.getMinor()] << std::endl;
+            std::cout << i << ": " << colorPair.ToString() << std::endl;
         }
     }
 }
