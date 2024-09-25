@@ -20,11 +20,11 @@ namespace TelCoColorCoder
     SLATE = 4
     };
 
-    const char* MajorColorNames[];
-    const char* MinorColorNames[];
+    extern const char* MajorColorNames[];
+    extern const char* MinorColorNames[];
 
-    const int numberOfMajorColors;
-    const int numberOfMinorColors;
+    extern const int numberOfMajorColors;
+    extern const int numberOfMinorColors;
 }
 
 #endif
