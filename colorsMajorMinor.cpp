@@ -1,4 +1,4 @@
-#inlcude "colorsMajorMinor.h"
+#include "colorsMajorMinor.h"
 
 namespace TelCoColorCoder 
 {
