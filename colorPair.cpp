@@ -9,10 +9,15 @@ namespace TelCoColorCoder
     {
         return majorColor;
     }
-
     MinorColor ColorPair::getMinor() 
     {
         return minorColor;
     }
-
+    std::string ColorPair::ToString() 
+    {
+        std::string colorPairStr = MajorColorNames[majorColor];
+        colorPairStr += " ";
+        colorPairStr += MinorColorNames[minorColor];
+        return colorPairStr;
+    }
 }
