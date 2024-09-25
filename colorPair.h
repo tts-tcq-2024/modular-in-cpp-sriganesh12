@@ -1,6 +1,7 @@
 #ifndef COLORPAIR_H
 #define COLORPAIR_H
 
+#include <string>
 #include "colorsMajorMinor.h"
 
 namespace TelCoColorCoder 
