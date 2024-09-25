@@ -9,7 +9,7 @@ namespace TelCoColorCoder
         TelCoColorCoder::ColorPair colorPair = TelCoColorCoder::GetColorFromPairNumber(pairNumber);
         assert(colorPair.getMajor() == expectedMajor);
         assert(colorPair.getMinor() == expectedMinor);
-        std::cout << "Got pair " << MajorColorNames[colorPair.getMajor()] << "  " << MinorColorNames[colorPair.getMinor()] << std::endl;
+        std::cout << "Got pair " << colorPair.ToString() << std::endl;
     }
     
     void testPairToNumber(TelCoColorCoder::MajorColor major, TelCoColorCoder::MinorColor minor, int expectedPairNumber) 
